@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/freiksenet/graphql-nodejs-newsfeed#readme",
   "dependencies": {
-    "babel": "^5.8.19",
+    "babel": "^6.0.0",
     "bluebird": "^2.9.34",
     "graphql": "^0.4.3",
-    "hapi": "^8.8.0",
+    "hapi": "^17.0.0",
     "sqlite3": "^3.0.9"
   },
   "devDependencies": {
