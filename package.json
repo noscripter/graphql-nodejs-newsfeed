@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -21,12 +23,14 @@
     "babel": "^5.8.19",
     "bluebird": "^2.9.34",
     "graphql": "^0.4.3",
-    "hapi": "^8.8.0",
-    "sqlite3": "^3.0.9"
+    "hapi": "^13.4.0",
+    "sqlite3": "^4.0.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "babel-eslint": "^4.0.5",
     "eslint": "^0.24.1",
     "mocha": "^2.2.5"
-  }
+  },
+  "snyk": true
 }
